@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>대학진로탐색 - 메인 </title>
+
+<script src="https://kit.fontawesome.com/e96eca9d28.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+<style>
+
+  A:link {COLOR: black; TEXT-DECORATION: none}
+  A:visited {COLOR: black; TEXT-DECORATION: none}
+  A:hover {COLOR: black; TEXT-DECORATION: none }
+
+
+body {
+  margin: 0;
+}
+.home  {
+  color: black;
+  font-size: 70px;
+  font-family: 'Cute Font', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0,144,183);
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+.subtitle {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0,144,183);
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+#grid1{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+div {
+  padding-left: 30px;
+}
+
+@media(max-width:550px) {
+  #grid1{
+    display: block;
+  }
+    ul{
+    border-right: none;
+ }
+}
+.first{
+  font-size: 60px;
+  font-family: 'Nanum Myeongjo', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  border-right: 2px gray solid;
+  width: 210px;
+  margin-top: 0;
+  margin-left: 10px;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 40px;
+
+
+}
+
+h1 {
+  font-family: 'Nanum Myeongjo', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: lighter;
+  color:
+
+}
+.fas{
+  font-size: 300px;
+  color: rgb(178,204,255);
+  display: flex;
+  Animation: hi 2s linear infinite alternate forwards;
+}
+.fas:hover{
+  transform: scale(2) rotate(15deg);
+  Animation-play-state: paused;
+}
+  @keyframes hi{
+    0%{
+      transform: translate(600px,0);
+    }
+
+
+    100%{
+
+      transform: translate(800px,0);
+    }
+
+}
+h3{
+  text-align: center;
+}
+}
+</style>
+</head>
+<body>
+  <header>
+    <hgroup>
+      <p class="home">
+        <a href="gmain.html" title="메인화면으로"> 학부 진로 탐색</a>
+      </p>
+      <p class="subtitle">
+        Undergraduate career exploration
+      </p>
+    <hgroup>
+  </header>
+
+  <div id="grid1">
+<ul>
+         <b>[content]</b>
+        <li> <a href="g1.html" class="c1" > path thinking </a></li>
+        <li> <a href="g2.html" class="c2">  학부 이후 여러 갈래 길 </a> </li>
+        <li> <a href="g3.html" calss="c3"> 취업에 대하여 </a> </li>
+        <li> <a href="g4.html" class="c4"> 창업에 대하여 </a> </li>
+        <li> <a href="g5.html" class="c5"> 창직에 대하여 </a> </li>
+        <li> <a href="g6.html" class="c6"> 대학원에 대하여 </a> </li>
+</ul>
+<div>
+  <h1 class="first">안녕하세요~!</h1>
+<i class="fas fa-mitten"></i><br>
+<h3>이곳은 대학생 여러분이 잠깐이나마<br>
+“자신의 진로＂에 대해 고민하며 노는<br>
+진로탐색 놀이터입니다.<br>
+반가워요!</h3>
+
+<p>
+   <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://web1-2.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+ </p>
+
+</div>
+</div>
+
+
+</body>
+</html>
