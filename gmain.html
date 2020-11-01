@@ -9,6 +9,8 @@
 <script src="https://kit.fontawesome.com/e96eca9d28.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 
 <style>
 
@@ -27,7 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(0,144,183);
+  background-color: rgb(255,196,255);
   margin-bottom: 0;
   margin-top: 0;
 
@@ -37,7 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(0,144,183);
+  background-color: rgb(255,196,255);
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Cute Font', cursive;
@@ -49,7 +51,7 @@ body {
   grid-template-columns: 250px 1fr;
 }
 div {
-  padding-left: 30px;
+  padding-left: 0;
 }
 
 @media(max-width:550px) {
@@ -70,14 +72,15 @@ div {
 }
 
 ul {
-  border-right: 2px gray solid;
+  border-right: 2px black solid;
   width: 210px;
   margin-top: 0;
   margin-left: 10px;
   padding: 20px;
   font-size: 20px;
   line-height: 40px;
-  text-shadow: 2px;
+  margin-left: 20px;
+
 
 
 }
@@ -91,31 +94,38 @@ h1 {
   color:
 
 }
-.fas{
-  font-size: 300px;
-  color: rgb(178,204,255);
+.cover{
   display: flex;
-  Animation: hi 2s linear infinite alternate forwards;
-}
-.fas:hover{
-  transform: scale(2) rotate(15deg);
-  Animation-play-state: paused;
-}
-  @keyframes hi{
-    0%{
-      transform: translate(600px,0);
-    }
+  align-items: center;
+  justify-content: center;
 
-
-    100%{
-
-      transform: translate(800px,0);
-    }
 
 }
+.fas {
+  font-size: 300px;
+  color: rgb(103,153,255);
+  display: flex;
+
+}
+
 h3{
   text-align: center;
 }
+
+.youtube{
+  font-size: 28px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Cute Font', cursive;
+  background: rgb(255,196,255);
+
+}
+hr{
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 </style>
 </head>
@@ -124,11 +134,17 @@ h3{
     <hgroup>
       <p class="home">
         <a href="gmain.html" title="메인화면으로"> Path Thinking</a>
+
       </p>
       <p class="subtitle">
         여러분의 진로 고민을 응원합니다
+
       </p>
-    <hgroup>
+<div class="youtube">
+        <a href="https://www.youtube.com/channel/UCb2cVM-v0l3TD9C3sxejzYw" > <i class="fab fa-youtube"> </i> 유튜브 채널 </a>
+</div>
+
+    </hgroup>
   </header>
 
   <div id="grid1">
@@ -141,7 +157,9 @@ h3{
 </ul>
 <div>
   <h1 class="first">안녕하세요!</h1>
-<i class="fas fa-mitten"></i><br>
+  <div class="cover">
+<i class="fas fa-child"></i><br>
+</div>
 <h3>이곳은 대학생 여러분이 잠깐이나마<br>
 “자신의 진로＂에 대해 고민하며 노는<br>
 진로탐색 놀이터입니다.<br>
